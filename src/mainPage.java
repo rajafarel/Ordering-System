@@ -102,12 +102,11 @@ public class mainPage extends javax.swing.JFrame implements system {
     
     @Override
      public void menu(){
-       jTextArea1.setText(jTextArea1.getText()
+        jTextArea1.setText(jTextArea1.getText()
                     +"\n**************Thunk Sushi***************\n" 
                     +"Here is your order\n"
                     +"*******************************************\n"
                     +"Item Name:\t\t"+"Price($)\n");
-                
     }
     
     
@@ -1881,19 +1880,7 @@ public class mainPage extends javax.swing.JFrame implements system {
     public void getTax(double t){
         tax =  total*0.1;
     }
-//    public void getTax(double t){
-//        if(t<10.0 && t<=20.0){
-//            tax = 0.5;           
-//        }else if(t>20.0 && t<=40.0){
-//            tax = 1.0;          
-//        }else if(t>60.0 && t<=80.0){
-//            tax = 2.0;            
-//        }else if(t>80.0 && t<=100.0){
-//            tax = 3.0;
-//        }else if(t>100.0){
-//            tax = 5.0;
-//        }
-//    }
+
     private void exitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitButtonActionPerformed
         System.exit(0);
     }//GEN-LAST:event_exitButtonActionPerformed
